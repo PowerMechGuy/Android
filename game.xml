@@ -1,81 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="match_parent"
-	android:layout_width="match_parent">
 
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:text="x"
-		android:layout_centerHorizontal="true"
-		android:id="@+id/textOperator"
-		android:layout_marginTop="80dp"
-		android:textSize="70sp"/>
 
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:text="2"
-		android:layout_toLeftOf="@id/textOperator"
-		android:id="@+id/textPartA"
-		android:layout_centerHorizontal="true"
-		android:layout_marginRight="60dp"
-		android:layout_marginTop="80dp"
-		android:textSize="70sp"/>
 
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:text="2"
-		android:layout_toRightOf="@id/textOperator"
-		android:layout_marginLeft="60dp"
-		android:layout_marginTop="80dp"
-		android:id="@+id/textPartB"
-		android:textSize="70sp"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:text="x"
+ android:layout_centerHorizontal="true"
+ android:id="@+id/textOperator"
+ android:layout_marginTop="80dp"
+ android:textSize="70sp"/>
 
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:text="="
-		android:layout_below="@id/textOperator"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="80dp"
-		android:id="@+id/gameTextView1"
-		android:textSize="70sp"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:text="2"
+ android:layout_toLeftOf="@id/textOperator"
+ android:id="@+id/textPartA"
+ android:layout_centerHorizontal="true"
+ android:layout_marginRight="60dp"
+ android:layout_marginTop="80dp"
+ android:textSize="70sp"/>
 
-	<Button
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="4"
-		android:layout_below="@id/gameTextView1"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="80dp"
-		android:id="@+id/buttonChoice2"
-		android:textSize="40sp"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:text="2"
+ android:layout_toRightOf="@id/textOperator"
+ android:layout_marginLeft="60dp"
+ android:layout_marginTop="80dp"
+ android:id="@+id/textPartB"
+ android:textSize="70sp"/>
 
-	<Button
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="2"
-		android:layout_toLeftOf="@id/buttonChoice2"
-		android:layout_marginTop="428dp"
-		android:layout_marginRight="30dp"
-		android:id="@+id/buttonChoice1"
-		android:textSize="40sp"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:text="="
+ android:layout_below="@id/textOperator"
+ android:layout_centerHorizontal="true"
+ android:layout_marginTop="80dp"
+ android:id="@+id/gameTextView1"
+ android:textSize="70sp"/>
 
-	<Button
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="5"
-		android:layout_toRightOf="@id/buttonChoice2"
-		android:layout_marginTop="428dp"
-		android:layout_marginLeft="30dp"
-		android:id="@+id/buttonChoice3"
-		android:textSize="40sp"/>
+<Button
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ android:text="4"
+ android:layout_below="@id/gameTextView1"
+ android:layout_centerHorizontal="true"
+ android:layout_marginTop="80dp"
+ android:id="@+id/buttonChoice2"
+ android:textSize="40sp"/>
 
-</RelativeLayout>
+<Button
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ android:text="2"
+ android:layout_toLeftOf="@id/buttonChoice2"
+ android:layout_marginTop="428dp"
+ android:layout_marginRight="30dp"
+ android:id="@+id/buttonChoice1"
+ android:textSize="40sp"/>
+
+<Button
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ android:text="5"
+ android:layout_toRightOf="@id/buttonChoice2"
+ android:layout_marginTop="428dp"
+ android:layout_marginLeft="30dp"
+ android:id="@+id/buttonChoice3"
+ android:textSize="40sp"/>
+
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:text="Score: 0"
+ android:layout_below="@id/buttonChoice2"
+ android:layout_marginTop="30dp"
+ android:layout_toLeftOf="@id/buttonChoice2"
+ android:id="@+id/textScore"/>
+
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:text="Level: 1"
+ android:layout_below="@id/buttonChoice2"
+ android:layout_marginTop="30dp"
+ android:layout_toRightOf="@id/buttonChoice2"
+ android:id="@+id/textLevel"/>
+
+
+
