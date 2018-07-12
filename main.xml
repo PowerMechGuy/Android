@@ -13,20 +13,20 @@
 		android:layout_marginTop="60dp"
 		android:id="@+id/mainTextView1"/>
 
-	<View
-		android:background="?android:attr/dividerHorizontal"
-		android:layout_height="150dp"
-		android:layout_width="150dp"
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/math"
 		android:layout_below="@id/mainTextView1"
 		android:layout_centerHorizontal="true"
-		android:layout_marginTop="60dp"
-		android:id="@+id/mainView1"/>
+		android:id="@+id/mainImageView1"
+		android:layout_marginTop="60dp"/>
 
 	<Button
 		android:layout_height="wrap_content"
 		android:layout_width="120dp"
 		android:text="Play"
-		android:layout_below="@id/mainView1"
+		android:layout_below="@id/mainImageView1"
 		android:id="@+id/buttonPlay"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="30dp"/>
